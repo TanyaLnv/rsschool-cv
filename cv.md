@@ -26,3 +26,21 @@ I'm looking to develop my programming skills. I like to be inspired by incredibl
 * hard-working
 
 I believe that we create our own life.
+
+## Skills
+
+While studying at the university, I worked (and continue to work) with
+### Language
+* C/C++
+* Java
+### Framworks
+* Hibernate
+### Version control system
+* Git
+### Databases
+* SQLServer
+* MySQL
+### Development tools
+* IntelliJ IDEA 
+* Visual Studio
+* Sublime Text
