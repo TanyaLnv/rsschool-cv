@@ -44,3 +44,24 @@ While studying at the university, I worked (and continue to work) with
 * IntelliJ IDEA 
 * Visual Studio
 * Sublime Text
+## Code example
+
+Function accepts a string parameter, and reverses each word in the string. All spaces in the string are retained.  
+("This is an example!" ==> "sihT si na !elpmaxe")
+```java
+public class Kata
+{
+     public static String reverseWords(final String original)
+    {
+        String [] strs = original.split(" ");
+        String[] str = new String[strs.length];
+        for(int i = 0; i<strs.length; i++)
+        {
+            strs[i] = new StringBuilder(strs[i]).reverse().toString();
+        }
+
+        String joined = String.join(" ", strs);
+        return joined;
+    }
+}
+```
