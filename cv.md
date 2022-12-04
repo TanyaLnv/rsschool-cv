@@ -9,3 +9,20 @@ tanya.leonova.24012003@gmail.com
 GitHub: @TanyaLnv  
 Discord rs-school: Tanya(@TanyaLnv)  
 ![Leonova Tatiana](img/1.jpg)  
+  
+
+
+## About me
+
+I'm looking to develop my programming skills. I like to be inspired by incredible work on creating the visual component of websites. However, I don’t want to limit myself to front-end, because creating a whole product is much more beautiful. 
+
+### What am I like?
+
+* calm
+* eager
+* friendly  
+* sociable  
+* responsible
+* hard-working
+
+I believe that we create our own life.
