@@ -87,4 +87,4 @@ WayUP:
 ## Languages
 
 * Russian (native)  
-* English (intermidiate)
+* English (intermediate)
