@@ -65,3 +65,26 @@ public class Kata
     }
 }
 ```
+## Education
+
+#### 2020 - 2024 (in progress)   
+Economist-programmer  
+Faculty of Engineering and Economics   
+Belarusian State University of Informatics and Radioelectronics
+
+#### 2015-2020  
+Yelsk gymnasium
+
+#### Courses
+WayUP:
+* Javascript: diving in   
+![Javascript: diving in](img/2.jpg)  
+* Web layout designer: getting started  
+![Web layout designer: getting started](img/3.jpg) 
+* Web designer: the explosive start  
+![Web designer: the explosive start](img/4.jpg) 
+
+## Languages
+
+* Russian (native)  
+* English (intermidiate)
