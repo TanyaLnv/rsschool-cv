@@ -28,10 +28,15 @@ p{
   .section{
     padding: 130px 0px 130px 150px;
   }
+  .section2{
+    padding-left: 30px;
+  }
   .left-column{
-    width: 60%;
+    display: inline-block;
+    width: 59%;
   }
   .right-column{
+    display: inline-block;
     width: 40%;
   }
   .line{
@@ -98,6 +103,9 @@ main{
     background-color: #0C0094;
     color: #ffffff;
 }
+.adout li{
+    margin-bottom: 10px;
+}
 
 /* skills */
 .skill-block{
@@ -109,4 +117,33 @@ main{
 
 .skills .line{
     width: 420px;
+}
+
+/* code */
+.code{
+    padding-top: 0px;
+}
+.code .line{
+    margin-top: 0px;
+    width: 230px;
+}
+.code p{
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+/* contacts */
+.contacts{
+    background-color: #F4F3FE;
+}
+.contacts p{
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.contact-link{
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 20px;
 }
