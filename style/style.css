@@ -37,6 +37,7 @@ p{
   }
   .right-column{
     display: inline-block;
+    margin-left: -5px;
     width: 40%;
   }
   .line{
@@ -125,7 +126,7 @@ main{
 }
 .code .line{
     margin-top: 0px;
-    width: 230px;
+    width: 225px;
 }
 .code p{
     margin-top: 0px;
@@ -151,6 +152,7 @@ main{
 .photo{
     background-color: #0C0094;
     text-align: center;
+    padding: 230px 0px;
 }
 .my-photo{
     display: inline-block;
@@ -172,4 +174,14 @@ main{
 .education a{
     text-decoration: none;
     color: #000000;
+}
+
+/* languages */
+.languages{
+    background-color: #CFCFD0;
+    
+}
+.languages p{
+    margin-top: 137px;
+    color: #CFCFD0;
 }
