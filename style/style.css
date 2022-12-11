@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+.nav{
+    background-color: #0C0094;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none; 
+    padding: 15px;
+    margin: 0;
+  }
+.nav-link{
+    padding: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #ffffff;
+}
