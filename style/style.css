@@ -42,7 +42,9 @@ p{
     height: 1px;
     background-color: #ffffff;
   }
-
+  .dark-line{
+    background-color: #000000;
+  }
   /* Header */
 .nav{
     background-color: #0C0094;
@@ -95,4 +97,16 @@ main{
 .about{
     background-color: #0C0094;
     color: #ffffff;
+}
+
+/* skills */
+.skill-block{
+    display: inline-block;
+    width: 49%;
+    min-height: 150px;
+    vertical-align: text-top;
+}
+
+.skills .line{
+    width: 420px;
 }
