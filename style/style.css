@@ -55,7 +55,7 @@ a:hover{
     display: inline-block;
     margin-left: 15px;
     margin-bottom: 10px;
-    width: 375px;
+    width: 370px;
     height: 1px;
     background-color: #ffffff;
   }
@@ -108,7 +108,10 @@ main{
     top: 80px;
 }
 
-
+/* small-sceen */
+.small-screen{
+    display: none;
+}
 /* About me */
 .about{
     min-height: 100px;
@@ -127,7 +130,7 @@ main{
 .vertical-line{
     position: absolute;
     top: 40px;
-    left: 604px;
+    left: 598px;
     height:600px;
     border-right: 30px solid #ffffff;
     background-color: #ffffff;
@@ -194,6 +197,8 @@ main{
     border-radius: 50%;
 }
 
+
+
 /* education */
 .education{
     background-color: #F4F3FE;
@@ -220,6 +225,7 @@ main{
 }
 /* works */
 .works{
+    min-height: 600px;
     background-color: rgb(187, 200, 224);
 }
 .works p{
@@ -241,5 +247,89 @@ main{
 }
 .year{
     display: inline-block;
-    margin: 0 470px;
+    margin: 0px 470px;
+}
+
+@media(max-width:1199px){
+    body{
+        font-size: 10px;
+    }
+    .nav-link{
+        padding: 50px 20px;
+    }
+    .left-column{
+        width: 100%;
+    }
+    .section, .section2{
+        padding: 100px 50px;
+    }
+    .main{
+        display: block;
+    }
+    .main p{
+        margin-top: 50px;
+    }
+    .code{
+        padding-top: 0px;
+    }
+    .photo{
+        display: none;
+    }
+    .contacts{
+        display: none;
+    }
+    .small-screen{
+        display: block;
+        padding-left: 50px;
+        background-color: #F4F3FE;
+    }
+    .contacts1{
+        display: inline-block;
+        margin-right: 150px;
+    }
+    .contacts1 p{
+        display: inline-block;
+        margin-left: 10px;
+    }
+    .contact-link{
+        margin: 10px;
+    }
+    .vertical-line{
+        display: none;
+    }
+    .line, .dark-line{
+        display: none;
+    }
+    .year{
+        margin: 30px 200px;
+    }
+}
+@media (max-width: 767px){
+    p, li, a{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .main-header{
+        position: static;
+        line-height: 40px;
+    }
+    .main-header::after, .main-header::before{
+        display: none;
+    }
+
+    .contact-link{
+        font-size: 10px;
+    }
+    .contacts1 p{
+        font-size: 10px;
+    }
+    .year{
+        margin: 30px 70px;
+    }
+    .nav-link{
+        font-size: 15px;
+        padding: 50px 10px;
+    }
 }
