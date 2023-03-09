@@ -52,9 +52,9 @@
                     <p>Discord rs-school: Tanya(@TanyaLnv)</p>
                 </div>
             </div>
-     
+
                 <img class="my-photo" src="img/1.jpg" alt="Tatiana Leonova">
-          
+
         </section>
         <section class="section about" id="about">
             <div class="about-offer">
@@ -113,22 +113,22 @@
         <section class="section code" id="code">
             <h2>Code example</h2>
             <div class="line dark-line"></div>
-            <p>Function accepts a string parameter, and reverses each word in the string. 
-                <br>All spaces in the string are retained. ("This is an example!" ==> "sihT si na !elpmaxe") 
+            <p>Function accepts a string parameter, and reverses each word in the string.
+                <br>All spaces in the string are retained. ("This is an example!" ==&gt "sihT si na !elpmaxe")
             </p>
-            <pre class="hljs"><span class="hljs-keyword">public</span> class Kata 
-                { 
-                      <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">String</span> reverseWords(<span class="hljs-keyword">final</span> <span class="hljs-keyword">String</span> original) 
-                      { 
-                          <span class="hljs-keyword"> String</span> [] strs = original.<span class="hljs-built_in">split</span>(<span class="hljs-string">" "</span>); 
-                          <span class="hljs-keyword">String</span>[] <span class="hljs-built_in">str</span> = <span class="hljs-keyword">new</span> <span class="hljs-keyword">String</span>[strs.length]; 
-                          <span class="hljs-keyword">for</span>(<span class="hljs-built_in">int</span> i = <span class="hljs-number">0</span>; i&lt;strs.length; i++) 
-                          { 
-                             strs[i] = <span class="hljs-keyword">new</span> StringBuilder(strs[i]).<span class="hljs-built_in">reverse</span>().toString(); 
-                          } 
-                          <span class="hljs-keyword">String</span> joined = <span class="hljs-keyword">String</span>.<span class="hljs-built_in">join</span>(<span class="hljs-string">" "</span>, strs); 
-                          <span class="hljs-keyword">return</span> joined; 
-                      } 
+            <pre class="hljs"><span class="hljs-keyword">public</span> class Kata
+                {
+                      <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">String</span> reverseWords(<span class="hljs-keyword">final</span> <span class="hljs-keyword">String</span> original)
+                      {
+                          <span class="hljs-keyword"> String</span> [] strs = original.<span class="hljs-built_in">split</span>(<span class="hljs-string">" "</span>);
+                          <span class="hljs-keyword">String</span>[] <span class="hljs-built_in">str</span> = <span class="hljs-keyword">new</span> <span class="hljs-keyword">String</span>[strs.length];
+                          <span class="hljs-keyword">for</span>(<span class="hljs-built_in">int</span> i = <span class="hljs-number">0</span>; i&lt;strs.length; i++)
+                          {
+                             strs[i] = <span class="hljs-keyword">new</span> StringBuilder(strs[i]).<span class="hljs-built_in">reverse</span>().toString();
+                          }
+                          <span class="hljs-keyword">String</span> joined = <span class="hljs-keyword">String</span>.<span class="hljs-built_in">join</span>(<span class="hljs-string">" "</span>, strs);
+                          <span class="hljs-keyword">return</span> joined;
+                      }
                 }</pre>
         </section>
     </div>
