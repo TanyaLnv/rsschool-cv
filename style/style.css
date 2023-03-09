@@ -162,7 +162,22 @@ main{
     margin-top: 0px;
     margin-bottom: 30px;
 }
-
+.hljs{
+    display: block; 
+    overflow-x: auto; 
+    padding: 0.5em; 
+    background: rgb(255, 255, 255); 
+    color: rgb(68, 68, 68);
+}
+.hljs-keyword{
+    font-weight: 700;
+}
+.hljs-built_in{
+    color: rgb(57, 115, 0);
+}
+.hljs-string{
+    color: rgb(136, 0, 0);
+}
 /* contacts */
 .contacts{
     background-color: #F4F3FE;
